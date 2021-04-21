@@ -24,4 +24,11 @@
             background-size: cover;
         }
 
+        a.nav-link { cursor: pointer;}
+
+        .light-grey {
+            background-color: #282828;
+            color: white;
+        }
+
         
