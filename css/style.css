@@ -1,0 +1,27 @@
+        body {
+            background-image: url("../img/coding-on-a-computer.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #content{
+            color: white;
+        }
+        #footer{
+            color: white;
+        }
+        #content2{
+            padding-top: 20px;
+        }
+        .img-list{
+            max-width: 100px;
+        }
+
+        .dark {
+            background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%), url("../img/coding-on-a-computer.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        
