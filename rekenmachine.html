@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body class="themed">
+  <div class="container-fluid">
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark rounded">
+         <a class="navbar-brand" href="rekenmachine.html">Rekenmachine</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="vaardigheden.html">Vaardigheden</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="projecten.html">Projecten</a>
+             </li> 
+             <li class="nav-item">
+                 <a class="nav-link" href="contact.html">Contact</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="rekenmachine.html">Rekenmachine</a>
+             </li> 
+               <li class="nav-item">
+                 <a class="nav-link theme-button">Theme: Light</a>
+             </li>     
+           </ul>
+         </div>  
+       </nav>
+  </div>
+  <div class="box1">
+    <h2 class="Text">Time</h2>
+    <div class="Time">
+      <input type="number" class="distance-time" placeholder="Distance">
+      <select name="distance" class="dis-tim">
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <input type="number" class="speed-time" placeholder="Speed">
+      <select name="speed" class="spd-tim">
+        <option value="m/min">m/min</option>
+        <option value="m/hr">m/hr</option>
+        <option value="km/min">km/min</option>
+        <option value="km/h">km/h</option>
+      </select>
+      <button class="calculate-time">=</button>
+      <input type="number" class="time-time" placeholder="Time">
+      <select name="time" class="tim-tim">
+        <option value="min">min</option>
+        <option value="hr">hr</option>
+      </select>
+  </div>
+  </div>
+<div class="box2">
+  <h2 class="Text">Speed</h2>
+    <div class="Speed">
+      <input type="number" class="distance-speed" placeholder="Distance">
+      <select name="distance" class="dis-spd">
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <input type="number" class="time-speed" placeholder="Time">
+      <select name="time" class="tim-spd">
+        <option value="min">min</option>
+        <option value="hr">hr</option>
+      </select>
+      <button class="calculate-speed">=</button>
+      <input type="number" class="speed-speed" placeholder="Speed">
+      <select name="speed" class="spd-spd">
+        <option value="m/min">m/min</option>
+        <option value="m/hr">m/hr</option>
+        <option value="km/min">km/min</option>
+        <option value="km/h">km/h</option>
+      </select>
+  </div>
+</div>
+<div class="box3">
+  <h2 class="Text">Distance</h2>
+    <div class="Distance">
+      <input type="number'" class="speed-distance" placeholder="Speed">
+      <select name="speed"class="spd-dis">
+        <option value="m/min">m/min</option>
+        <option value="m/hr">m/hr</option>
+        <option value="km/min">km/min</option>
+        <option value="km/h">km/h</option>
+      </select>
+      <input type="number" class="time-distance" placeholder="Time">
+      <select name="time" class="tim-dis">
+        <option value="min">min</option>
+        <option value="hr">hr</option>
+      </select>
+      <button class="calculate-distance">=</button>
+      <input type="number" class="distance-distance" placeholder="Distance">
+      <select name="distance" class="dis-dis">
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+  </div>
+</div>
+</div>
+<script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
