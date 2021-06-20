@@ -34,25 +34,19 @@ themeButton.addEventListener("click", () => {
 
     if (darkMode !== "enabled"){
         enableDarkMode();
+        themeButton.innerHTML = "Theme: Light"
     }
     else {
         disableDarkMode();
-    }
-
-    if (themeButton.innerHTML == "Theme: Light") {
         themeButton.innerHTML = "Theme: Dark";
     }
-    else {
-        themeButton.innerHTML = "Theme: Light";
-    }
-
 });
 
-/*setTimeout(function() {
+setInterval(() => {
     const current = new Date().getHours();
-    if (current >= 10) {
+    if (current >= 17) {
         enableDarkMode();
-    }
-    
+    }   
+
 },0000);
-*/
+

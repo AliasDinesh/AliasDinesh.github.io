@@ -1,0 +1,670 @@
+{
+    "id": "tt1457767",
+    "title": "The Conjuring",
+    "originalTitle": "",
+    "fullTitle": "The Conjuring (2013)",
+    "type": "Movie",
+    "year": "2013",
+    "image": "https://imdb-api.com/images/original/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_Ratio0.6791_AL_.jpg",
+    "releaseDate": "2013-07-18",
+    "runtimeMins": "112",
+    "runtimeStr": "1h 52mins",
+    "plot": "In 1971, Carolyn and Roger Perron move their family into a dilapidated Rhode Island farm house and soon strange things start happening around it with escalating nightmarish terror. In desperation, Carolyn contacts the noted paranormal investigators, Ed and Lorraine Warren, to examine the house. What the Warrens discover is a whole area steeped in a satanic haunting that is now targeting the Perron family wherever they go. To stop this evil, the Warrens will have to call upon all their skills and spiritual strength to defeat this spectral menace at its source that threatens to destroy everyone involved.",
+    "plotLocal": "",
+    "plotLocalIsRtl": false,
+    "awards": "15 wins & 24 nominations.",
+    "directors": "James Wan",
+    "directorList": [
+    {
+    "id": "nm1490123",
+    "name": "James Wan"
+    }
+    ],
+    "writers": "Chad Hayes, Carey W. Hayes",
+    "writerList": [
+    {
+    "id": "nm0370937",
+    "name": "Chad Hayes"
+    },
+    {
+    "id": "nm0370928",
+    "name": "Carey W. Hayes"
+    }
+    ],
+    "stars": "Patrick Wilson, Vera Farmiga, Ron Livingston, Lili Taylor",
+    "starList": [
+    {
+    "id": "nm0933940",
+    "name": "Patrick Wilson"
+    },
+    {
+    "id": "nm0267812",
+    "name": "Vera Farmiga"
+    },
+    {
+    "id": "nm0515296",
+    "name": "Ron Livingston"
+    },
+    {
+    "id": "nm0000666",
+    "name": "Lili Taylor"
+    }
+    ],
+    "actorList": [
+    {
+    "id": "nm0267812",
+    "image": "https://imdb-api.com/images/original/MV5BMjIwNTU3NDUyMl5BMl5BanBnXkFtZTgwODEwODg5NDE@._V1_Ratio1.5000_AL_.jpg",
+    "name": "Vera Farmiga",
+    "asCharacter": "Lorraine Warren"
+    },
+    {
+    "id": "nm0933940",
+    "image": "https://imdb-api.com/images/original/MV5BMTkzNzcxNzcxMF5BMl5BanBnXkFtZTgwOTM1ODUzMTE@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Patrick Wilson",
+    "asCharacter": "Ed Warren"
+    },
+    {
+    "id": "nm0000666",
+    "image": "https://imdb-api.com/images/original/MV5BMTAyNzAyMzA1ODZeQTJeQWpwZ15BbWU4MDAzNDQxNjkx._V1_Ratio1.0000_AL_.jpg",
+    "name": "Lili Taylor",
+    "asCharacter": "Carolyn Perron"
+    },
+    {
+    "id": "nm0515296",
+    "image": "https://imdb-api.com/images/original/MV5BMjIxODk2NDUzOF5BMl5BanBnXkFtZTgwNTI2ODg1NDE@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Ron Livingston",
+    "asCharacter": "Roger Perron"
+    },
+    {
+    "id": "nm2632793",
+    "image": "https://imdb-api.com/images/original/MV5BZTA0YjJlY2EtNmQ5MC00NGExLWFlZTYtNWNlNDIxOWU0Y2VlXkEyXkFqcGdeQXVyMTUxNTQ0NzU@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Shanley Caswell",
+    "asCharacter": "Andrea"
+    },
+    {
+    "id": "nm2201055",
+    "image": "https://imdb-api.com/images/original/MV5BOGQ5YmEwYzEtMjgxNS00N2FiLTk4OWUtMTQyNTY2Yzg0YTBkXkEyXkFqcGdeQXVyMTAxNzU5MTM@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Hayley McFarland",
+    "asCharacter": "Nancy"
+    },
+    {
+    "id": "nm1428821",
+    "image": "https://imdb-api.com/images/original/MV5BMTgzMTA5MjA3MF5BMl5BanBnXkFtZTgwMzY3NjYxNzE@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Joey King",
+    "asCharacter": "Christine"
+    },
+    {
+    "id": "nm3237775",
+    "image": "https://imdb-api.com/images/original/MV5BYTIyMzExODgtNzllNy00OWQwLTlhM2QtMWU1ZTI2MjgwMTQxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Mackenzie Foy",
+    "asCharacter": "Cindy"
+    },
+    {
+    "id": "nm4152381",
+    "image": "https://imdb-api.com/images/original/MV5BZDYzOTA4MDYtZjA4My00ZDRkLTg3MDYtMDRkNWNiMDQwZTg2XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Kyla Deaver",
+    "asCharacter": "April"
+    },
+    {
+    "id": "nm3651929",
+    "image": "https://imdb-api.com/images/original/MV5BZjRjZTBkNDctNGQxMy00MjY1LWFmZDQtMmQ0ZjgxNGFiMGYxXkEyXkFqcGdeQXVyMjEzNzc3MzY@._V1_Ratio1.5000_AL_.jpg",
+    "name": "Shannon Kook",
+    "asCharacter": "Drew Thomas"
+    },
+    {
+    "id": "nm1383586",
+    "image": "https://imdb-api.com/images/original/MV5BMjM5NzY2NzY4OV5BMl5BanBnXkFtZTgwNTAzMTA4NzE@._V1_Ratio0.7273_AL_.jpg",
+    "name": "John Brotherton",
+    "asCharacter": "Brad"
+    },
+    {
+    "id": "nm3606106",
+    "image": "https://imdb-api.com/images/original/MV5BY2IzMWI3ZWMtMTIxYS00YjNkLTgyYjEtNDVkNDVkNWVkNzU5XkEyXkFqcGdeQXVyMzc1NDgzNzY@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Sterling Jerins",
+    "asCharacter": "Judy Warren"
+    },
+    {
+    "id": "nm0349929",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Marion Guyot",
+    "asCharacter": "Georgiana"
+    },
+    {
+    "id": "nm4882450",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Morganna Bridgers",
+    "asCharacter": "Debbie"
+    },
+    {
+    "id": "nm1273227",
+    "image": "https://imdb-api.com/images/original/MV5BMTMxNzc5NzIxNF5BMl5BanBnXkFtZTYwNzMwMjEz._V1_Ratio0.7273_AL_.jpg",
+    "name": "Amy Tipton",
+    "asCharacter": "Camilla"
+    },
+    {
+    "id": "nm3804812",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Kymoura Kennedy",
+    "asCharacter": "Student #1"
+    },
+    {
+    "id": "nm5757534",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Sean Flynn",
+    "asCharacter": "Student #2"
+    },
+    {
+    "id": "nm4129684",
+    "image": "https://imdb-api.com/images/original/MV5BMTgyMjA4MjQ3MV5BMl5BanBnXkFtZTgwNDQxOTYxMDI@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Ashley White",
+    "asCharacter": "Female Student"
+    },
+    {
+    "id": "nm3893701",
+    "image": "https://imdb-api.com/images/original/MV5BNmZlZTNkMDMtMzdkOS00OGUyLTgzMmQtMTQ1OTI3OWQ5OTMzXkEyXkFqcGdeQXVyMTc4MjI3NzE@._V1_Ratio0.7727_AL_.jpg",
+    "name": "Zach Pappas",
+    "asCharacter": "Rick"
+    },
+    {
+    "id": "nm1663776",
+    "image": "https://imdb-api.com/images/original/MV5BMjM3MjY5MTU3OV5BMl5BanBnXkFtZTgwMzAwMzU1MjE@._V1_Ratio1.3182_AL_.jpg",
+    "name": "Arnell Powell",
+    "asCharacter": "Reporter"
+    },
+    {
+    "id": "nm1177766",
+    "image": "https://imdb-api.com/images/original/MV5BMTU3MjE3NDc1OF5BMl5BanBnXkFtZTcwNjYxNjM4NA@@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Joseph Bishara",
+    "asCharacter": "Bathsheba"
+    },
+    {
+    "id": "nm2546691",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Rose Bachtel",
+    "asCharacter": "Leah"
+    },
+    {
+    "id": "nm0625423",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "James D. Nelson",
+    "asCharacter": "David (as J. Donovan Nelson)"
+    },
+    {
+    "id": "nm0892069",
+    "image": "https://imdb-api.com/images/original/MV5BM2JmZDMzNjgtODMxOS00NmJhLWExOTQtY2I3NzE5ZTU4OWZjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNDAxOTExNTM@._V1_Ratio2.3636_AL_.jpg",
+    "name": "Christof Veillon",
+    "asCharacter": "Maurice"
+    },
+    {
+    "id": "nm5757535",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "George T. Zervos",
+    "asCharacter": "Catholic Priest"
+    },
+    {
+    "id": "nm3192619",
+    "image": "https://imdb-api.com/images/original/MV5BMjEzNjc0OTU3OV5BMl5BanBnXkFtZTgwODYzNjgxMzE@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Carmella Gioio",
+    "asCharacter": "Mrs. Walker"
+    },
+    {
+    "id": "nm0183548",
+    "image": "https://imdb-api.com/images/original/MV5BODQ4YTg1OWYtZTNlZC00ZDUzLThiN2ItM2Y2MmQ1ZWVlYTNlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.8636_AL_.jpg",
+    "name": "Steve Coulter",
+    "asCharacter": "Father Gordon"
+    },
+    {
+    "id": "nm5082079",
+    "image": "https://imdb-api.com/images/original/MV5BMjI5NDYzNzc2NV5BMl5BanBnXkFtZTgwMDY0OTA2MDI@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Desi Domo",
+    "asCharacter": "Suicide Maid"
+    },
+    {
+    "id": "nm5757536",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Dusty",
+    "asCharacter": "Sadie the Dog"
+    },
+    {
+    "id": "nm5554771",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Alyssa Bauman",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm5316848",
+    "image": "https://imdb-api.com/images/original/MV5BNjY4YTRlNTctNjMwNi00Yzk0LThkZTktMDhmZTNhOTE3OWZjXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Josiah Blount",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm5055016",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Tiyana Blue",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm2701615",
+    "image": "https://imdb-api.com/images/original/MV5BMWE5ZmM1YTUtYzRlOC00N2U5LTllNDctOTYwMjZmNDY3NDk0XkEyXkFqcGdeQXVyNzYxODQ1Nw@@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Mellie Boozer",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm1980057",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Jamie Broadnax",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm4690180",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Cabrenna H Burks",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm5401489",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Brannigan Carter",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm7346217",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Christina Collins",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm5003298",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Roxy Collins",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm4465621",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Christopher Cozort",
+    "asCharacter": "Faculty (uncredited)"
+    },
+    {
+    "id": "nm4040433",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Mase Daniels",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm8218359",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Jesse Michael Fullington",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm5131842",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Sanai James",
+    "asCharacter": "School Bus Rider (uncredited)"
+    },
+    {
+    "id": "nm5544531",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Michael Jeanmaire",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm1478411",
+    "image": "https://imdb-api.com/images/original/MV5BMmI5OGE1MzMtMjJiMC00ODI0LTg3MTYtYWQ2ZDkwNmM4MWYwXkEyXkFqcGdeQXVyMzg3MDk3OA@@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Christy Johnson",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm4779514",
+    "image": "https://imdb-api.com/images/original/MV5BNzRjZjhiOWUtMTY0Mi00ODkwLTk2ODMtY2RhNWE3ZmQwYWVjXkEyXkFqcGdeQXVyMzA0MDg4NTg@._V1_Ratio0.7727_AL_.jpg",
+    "name": "Courtney Lakin",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm4774507",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Grace Layden",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm4964475",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Karen Malina",
+    "asCharacter": "College Faculty (uncredited)"
+    },
+    {
+    "id": "nm2850047",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Joe Montanti",
+    "asCharacter": "College Professor (uncredited)"
+    },
+    {
+    "id": "nm1777084",
+    "image": "https://imdb-api.com/images/original/MV5BOTkzNGI3NGItODI1Yy00ODM1LTlhMGItNTAwNjBkM2JkYTE5XkEyXkFqcGdeQXVyOTU5NzM2MTI@._V1_Ratio0.7727_AL_.jpg",
+    "name": "Tony Moore",
+    "asCharacter": "Moving Man (uncredited)"
+    },
+    {
+    "id": "nm4492337",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Matthew Pabo",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm5588119",
+    "image": "https://imdb-api.com/images/original/MV5BZmZiMzM4NDAtMWI1Yi00ZmQ0LWExYjUtZjBlYjBiMTU5YjBjXkEyXkFqcGdeQXVyNDIwODMwNDU@._V1_Ratio0.7273_AL_.jpg",
+    "name": "David Pascua",
+    "asCharacter": "College Student (uncredited)"
+    },
+    {
+    "id": "nm4568643",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Darrell Rackley",
+    "asCharacter": "Faculty (uncredited)"
+    },
+    {
+    "id": "nm5127049",
+    "image": "https://imdb-api.com/images/original/MV5BNTBkYWNiM2EtMjlkZi00NjM5LThjZDUtNWVkNTY2YzIwYjQwXkEyXkFqcGdeQXVyMzA0OTY3MjY@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Nate Seman",
+    "asCharacter": "Rory (uncredited)"
+    },
+    {
+    "id": "nm4982550",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Paul Shaplin",
+    "asCharacter": "Faculty (uncredited)"
+    },
+    {
+    "id": "nm4988187",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Zachary Steffey",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm4999625",
+    "image": "https://imdb-api.com/images/original/MV5BNTUwMDU4MmItYWMxMS00MmUxLTk5MzAtMGVkM2Q0Mjc3ZDRkXkEyXkFqcGdeQXVyMjg1NDQyMTc@._V1_Ratio0.7273_AL_.jpg",
+    "name": "Justin A. Thuesen",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm2259322",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Joanna Tine",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm4773491",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Millie Wannamaker",
+    "asCharacter": "Faculty (uncredited)"
+    },
+    {
+    "id": "nm0912933",
+    "image": "https://imdb-api.com/images/original/MV5BMTUzNDA5MDQ5NV5BMl5BanBnXkFtZTgwMDkzODIxOTE@._V1_Ratio0.8636_AL_.jpg",
+    "name": "Lorraine Warren",
+    "asCharacter": "Woman in Audience (uncredited)"
+    },
+    {
+    "id": "nm7990056",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Heidi Sneed Webb",
+    "asCharacter": "Student (uncredited)"
+    },
+    {
+    "id": "nm3891175",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "name": "Makesha Williamson",
+    "asCharacter": "College Student (uncredited)"
+    }
+    ],
+    "fullCast": null,
+    "genres": "Horror, Mystery, Thriller",
+    "genreList": [
+    {
+    "key": "Horror",
+    "value": "Horror"
+    },
+    {
+    "key": "Mystery",
+    "value": "Mystery"
+    },
+    {
+    "key": "Thriller",
+    "value": "Thriller"
+    }
+    ],
+    "companies": "New Line Cinema, The Safran Company, Evergreen Media Group",
+    "companyList": [
+    {
+    "id": "co0046718",
+    "name": "New Line Cinema"
+    },
+    {
+    "id": "co0179825",
+    "name": "The Safran Company"
+    },
+    {
+    "id": "co0179990",
+    "name": "Evergreen Media Group"
+    }
+    ],
+    "countries": "USA",
+    "countryList": [
+    {
+    "key": "USA",
+    "value": "USA"
+    }
+    ],
+    "languages": "English, Latin",
+    "languageList": [
+    {
+    "key": "English",
+    "value": "English"
+    },
+    {
+    "key": "Latin",
+    "value": "Latin"
+    }
+    ],
+    "contentRating": "R",
+    "imDbRating": "7.5",
+    "imDbRatingVotes": "445936",
+    "metacriticRating": "68",
+    "ratings": {
+    "imDbId": "tt1457767",
+    "title": "The Conjuring",
+    "fullTitle": "The Conjuring (2013)",
+    "type": "Movie",
+    "year": "2013",
+    "imDb": "7.5",
+    "metacritic": "68",
+    "theMovieDb": "7.5",
+    "rottenTomatoes": "",
+    "tV_com": "",
+    "filmAffinity": "6.8",
+    "errorMessage": ""
+    },
+    "wikipedia": null,
+    "posters": null,
+    "images": null,
+    "trailer": {
+    "imDbId": "tt1457767",
+    "title": "The Conjuring",
+    "fullTitle": "The Conjuring (2013)",
+    "type": "Movie",
+    "year": "2013",
+    "videoId": "vi3819874585",
+    "videoTitle": "Trailer #3",
+    "videoDescription": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+    "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTQ3MjQzNDQ5MV5BMl5BanBnXkFtZTcwODAzMTg3OQ@@._V1_.jpg",
+    "uploadDate": "07/01/2013 17:30:44",
+    "link": "https://www.imdb.com/video/vi3819874585",
+    "linkEmbed": "https://www.imdb.com/video/imdb/vi3819874585/imdb/embed",
+    "errorMessage": ""
+    },
+    "boxOffice": {
+    "budget": "$20,000,000 (estimated)",
+    "openingWeekendUSA": "$41,855,326, 21 July 2013",
+    "grossUSA": "$137,400,141",
+    "cumulativeWorldwideGross": "$319,513,860"
+    },
+    "tagline": "Based on the true case files of the Warrens.",
+    "keywords": "ghost,exorcism,haunted house,possession,paranormal investigation",
+    "keywordList": [
+    "ghost",
+    "exorcism",
+    "haunted house",
+    "possession",
+    "paranormal investigation"
+    ],
+    "similars": [
+    {
+    "id": "tt3065204",
+    "title": "The Conjuring 2",
+    "fullTitle": "The Conjuring 2 (2016)",
+    "year": "2016",
+    "image": "https://imdb-api.com/images/original/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "Ed and Lorraine Warren travel to North London to help a single mother raising four children alone in a house plagued by a supernatural spirit.",
+    "directors": "James Wan",
+    "stars": "Vera Farmiga, Patrick Wilson, Madison Wolfe",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "7.3"
+    },
+    {
+    "id": "tt1591095",
+    "title": "Insidious",
+    "fullTitle": "",
+    "year": "",
+    "image": "https://imdb-api.com/images/original/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+    "directors": "James Wan",
+    "stars": "Patrick Wilson, Rose Byrne, Ty Simpkins",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "6.8"
+    },
+    {
+    "id": "tt3322940",
+    "title": "Annabelle",
+    "fullTitle": "",
+    "year": "",
+    "image": "https://imdb-api.com/images/original/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "A couple begins to experience terrifying supernatural occurrences involving a vintage doll shortly after their home is invaded by satanic cultists.",
+    "directors": "John R. Leonetti",
+    "stars": "Ward Horton, Annabelle Wallis, Alfre Woodard",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "5.4"
+    },
+    {
+    "id": "tt5140878",
+    "title": "Annabelle: Creation",
+    "fullTitle": "Annabelle: Creation (2017)",
+    "year": "2017",
+    "image": "https://imdb-api.com/images/original/MV5BMjA1MzIwMjMxNF5BMl5BanBnXkFtZTgwMDQ3NTc2MjI@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "Twelve years after the tragic death of their little girl, a doll-maker and his wife welcome a nun and several girls from a shuttered orphanage into their home, where they become the target of the doll-maker's possessed creation, Annabelle.",
+    "directors": "David F. Sandberg",
+    "stars": "Anthony LaPaglia, Samara Lee, Miranda Otto",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "6.5"
+    },
+    {
+    "id": "tt1396484",
+    "title": "It",
+    "fullTitle": "",
+    "year": "",
+    "image": "https://imdb-api.com/images/original/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+    "directors": "Andy Muschietti",
+    "stars": "Bill Skarsgård, Jaeden Martell, Finn Wolfhard",
+    "genres": "Horror",
+    "imDbRating": "7.3"
+    },
+    {
+    "id": "tt5814060",
+    "title": "The Nun",
+    "fullTitle": "The Nun (2018)",
+    "year": "2018",
+    "image": "https://imdb-api.com/images/original/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun.",
+    "directors": "Corin Hardy",
+    "stars": "Demián Bichir, Taissa Farmiga, Jonas Bloquet",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "5.3"
+    },
+    {
+    "id": "tt2226417",
+    "title": "Insidious: Chapter 2",
+    "fullTitle": "Insidious: Chapter 2 (2013)",
+    "year": "2013",
+    "image": "https://imdb-api.com/images/original/MV5BMTg0OTA5ODIxNF5BMl5BanBnXkFtZTcwNTUzNDg4OQ@@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "The Lamberts believe that they have defeated the spirits that have haunted their family, but they soon discover that evil is not beaten so easily.",
+    "directors": "James Wan",
+    "stars": "Patrick Wilson, Rose Byrne, Barbara Hershey",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "6.6"
+    },
+    {
+    "id": "tt1922777",
+    "title": "Sinister",
+    "fullTitle": "",
+    "year": "",
+    "image": "https://imdb-api.com/images/original/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "Washed-up true crime writer Ellison Oswalt finds a box of super 8 home movies in his new home that suggest the murder that he is currently researching is the work of a serial killer whose work dates back to the 1960s.",
+    "directors": "Scott Derrickson",
+    "stars": "Ethan Hawke, Juliet Rylance, James Ransone",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "6.8"
+    },
+    {
+    "id": "tt8350360",
+    "title": "Annabelle Comes Home",
+    "fullTitle": "Annabelle Comes Home (2019)",
+    "year": "2019",
+    "image": "https://imdb-api.com/images/original/MV5BYmI4NDNiMmQtZTFkYi00ZDVmLThlYTAtMWJlMjU1M2I2ZmViXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "While babysitting the daughter of Ed and Lorraine Warren, a teenager and her friend unknowingly awaken an evil spirit trapped in a doll.",
+    "directors": "Gary Dauberman",
+    "stars": "Vera Farmiga, Patrick Wilson, Mckenna Grace",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "5.9"
+    },
+    {
+    "id": "tt0298130",
+    "title": "The Ring",
+    "fullTitle": "The Ring (2002)",
+    "year": "2002",
+    "image": "https://imdb-api.com/images/original/MV5BNDA2NTg2NjE4Ml5BMl5BanBnXkFtZTYwMjYxMDg5._V1_Ratio0.6737_AL_.jpg",
+    "plot": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.",
+    "directors": "Gore Verbinski",
+    "stars": "Naomi Watts, Martin Henderson, Brian Cox",
+    "genres": "Horror, Mystery",
+    "imDbRating": "7.1"
+    },
+    {
+    "id": "tt6644200",
+    "title": "A Quiet Place",
+    "fullTitle": "A Quiet Place (2018)",
+    "year": "2018",
+    "image": "https://imdb-api.com/images/original/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+    "directors": "John Krasinski",
+    "stars": "Emily Blunt, John Krasinski, Millicent Simmonds",
+    "genres": "Drama, Horror, Sci-Fi",
+    "imDbRating": "7.5"
+    },
+    {
+    "id": "tt5052448",
+    "title": "Get Out",
+    "fullTitle": "",
+    "year": "",
+    "image": "https://imdb-api.com/images/original/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_Ratio0.6737_AL_.jpg",
+    "plot": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+    "directors": "Jordan Peele",
+    "stars": "Daniel Kaluuya, Allison Williams, Bradley Whitford",
+    "genres": "Horror, Mystery, Thriller",
+    "imDbRating": "7.7"
+    }
+    ],
+    "tvSeriesInfo": null,
+    "tvEpisodeInfo": null,
+    "errorMessage": ""
+    }
