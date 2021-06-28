@@ -1,5 +1,6 @@
 const buttonTime = document.querySelector(".calculate-time");
 
+//Calculate time function
 function Time () {
     const disValue = document.querySelector(".distance-time").value;
     const spdValue = document.querySelector(".speed-time").value;
@@ -77,10 +78,12 @@ function Time () {
 
 }
 
+//This addEventListener is for the calculate Time button
 buttonTime.addEventListener("click", Time);
 
 const buttonSpeed = document.querySelector(".calculate-speed");
 
+//Calculate speed function
 function Speed () {
     const disValue = document.querySelector(".distance-speed").value;
     const spdValue = document.querySelector(".speed-speed");
@@ -156,10 +159,12 @@ function Speed () {
     }
 }
 
+//This addEventListener is for the calculate Speed button
 buttonSpeed.addEventListener("click", Speed);
 
 const buttonDistance = document.querySelector(".calculate-distance");
 
+//Calculate distance function
 function Distance () {
     const disValue = document.querySelector(".distance-distance");
     const spdValue = document.querySelector(".speed-distance").value;
@@ -170,43 +175,43 @@ function Distance () {
     let som = "";
 
     if (disElement === "m" && spdElement === "m/min" && timElement === "min") {
-        som = timValue * spdValue;
+        som = spdValue * timValue;
         disValue.value = som; 
     }
     else if (disElement === "m" && spdElement === "m/hr" && timElement === "min") {
-        som = (timValue * spdValue) * 60;
+        som = (timValue * spdValue) / 60;
         disValue.value = som;
     }
     else if (disElement === "m" && spdElement === "km/min" && timElement === "min") {
-        som = (timValue * spdValue) * 0.001;
+        som = (timValue * spdValue) / 0.001;
         disValue.value = som;
     }
     else if (disElement === "m" && spdElement === "km/h" && timElement === "min") {
-        som = (timValue * spdValue) * 0.06;
+        som = (timValue * spdValue) / 0.06;
         disValue.value = som;
     }
     else if (disElement === "m" && spdElement === "m/min" && timElement === "hr") {
-        som = (timValue * spdValue) * 0.01666333;
+        som = (timValue * spdValue) / 0.01666333;
         disValue.value = som; 
     }
-    else if (timElement === "m" && spdElement === "m/hr" && timElement === "hr") {
-        som = disValue * spdValue;
+    else if (disElement === "m" && spdElement === "m/hr" && timElement === "hr") {
+        som = timValue * spdValue;
         disValue.value = som;
     }
-    else if (timElement === "m" && spdElement === "km/min" && timElement === "hr") {
-        som = (disValue * spdValue) * 0.00016667;
+    else if (disElement === "m" && spdElement === "km/min" && timElement === "hr") {
+        som = (timValue * spdValue) / 0.00016667;
         disValue.value = som;
     }
-    else if (timElement === "m" && spdElement === "km/h" && timElement === "hr") {
-        som = (disValue * spdValue) * 0.001;
+    else if (disElement === "m" && spdElement === "km/h" && timElement === "hr") {
+        som = (timValue * spdValue) / 0.001;
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "m/min" && timElement === "min") {
-        som = (timValue * spdValue) * 999.8;
+        som = (timValue * spdValue) / 999.8;
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "m/hr" && timElement === "min") {
-        som = (timValue * spdValue) * 60000
+        som = (timValue * spdValue) / 60000
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "km/min" && timElement === "min") {
@@ -214,19 +219,19 @@ function Distance () {
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "km/h" && timElement === "min") {
-        som = (timValue * spdValue) * 60;
+        som = (timValue * spdValue) / 60;
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "m/min" && timElement === "hr") {
-        som = (timValue * spdValue) * 16.663334;
+        som = (timValue * spdValue) / 16.663334;
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "m/hr" && timElement === "hr") {
-        som = (timValue * spdValue) * 1000;
+        som = (timValue * spdValue) / 1000;
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "km/min" && timElement === "hr") {
-        som = (timValue * spdValue) * 0.01666667;
+        som = (timValue * spdValue) / 0.01666667;
         disValue.value = som;
     }
     else if (disElement === "km" && spdElement === "km/h" && timElement === "hr") {
@@ -235,4 +240,7 @@ function Distance () {
     }
 }
 
+//This addEventListener is for the calculate Distance button
 buttonDistance.addEventListener("click", Distance);
+
+console.log('File loaded');
