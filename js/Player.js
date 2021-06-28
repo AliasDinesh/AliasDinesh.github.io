@@ -6,10 +6,11 @@ export default class Player {
       this.level = 1;
     }
   
+    //Add points to players function
     addPoints() {
-      this.points += 1;
+      this.points++;
       if (this.points == 10 || this.point == 20 || this.point == 30) {
-        this.level += 1;
+        this.level++;
       } 
     }
 }
