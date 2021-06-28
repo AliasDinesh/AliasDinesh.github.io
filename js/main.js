@@ -1,7 +1,6 @@
 let darkMode = localStorage.getItem("dark-mode");
 const themeButton = document.querySelector(".theme-button");
 const cardTheme = document.querySelectorAll(".card-theme");
-const prjLinks = document.querySelectorAll(".projects-links");
 
 //Enable dark mode function
 function enableDarkMode() {
