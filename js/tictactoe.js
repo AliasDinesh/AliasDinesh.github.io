@@ -3,10 +3,10 @@ import Player from "./Player.js";
 const players = [];
 let circleTurn;
 let draw = 1;
-const fields = document.querySelectorAll('.board > .field');
+const playerNameInputField = document.querySelector(".input-field");
+const addPLayerBtn = document.querySelector(".add-player-btn");
+const fields = document.querySelectorAll(".board > .field");
 const resetButton = document.querySelector(".reset-btn");
-const playerOne = new Player("Pieter", "X");
-const playerTwo = new Player("Jan", "O");
 const showPLayerOne = document.querySelector(".player-one");
 const showPLayerTwo = document.querySelector(".player-two");
 const winningCombinations = [
@@ -20,37 +20,64 @@ const winningCombinations = [
     [fields[2], fields[4], fields[6]]
 ]
 
-players.push(playerOne, playerTwo);
+//Add players function
+function addPlayer() {
+    if (players.length == 2) {
+        alert("There are 2 players already. Press the reset button to start a new game.")
+        return;
+    }
 
+    const playerName = playerNameInputField.value;
+    let symbol = "X";
+    if (players.length == 1) {
+        symbol = "O";
+    }
+    //Create new player
+    const newPlayer = new Player(playerName, symbol);
+    //Add the new player to the players array
+    players.push(newPlayer);
+
+    showPLayers();
+}
+
+//This addEventListener is for the add player button
+addPLayerBtn.addEventListener("click", addPlayer);
+
+//This for-loop loops trough all the fields and adds an addEventListener to each one of them
 for (let i = 0; i < fields.length; i++) {
     const fieldEl = fields[i];
     fieldEl.addEventListener("click", addSymbolToField);
 }
 
+//This addEventListener is for the reset button
 resetButton.addEventListener("click", resetGame);
 
 //Add symbol to field function
 function addSymbolToField(field) {
+    if (players.length == 0) {
+        alert("You need to add two players to play.");
+        return;
+    } else if (players.length < 2) {
+        alert("You need to add one more player to play.");
+        return;
+    }
+
     const fieldContent = field.target;
     if (fieldContent.textContent === 'X' || fieldContent.textContent === 'O') {
         alert('This field can not be used');
-        draw--;
+        return;
     } else {
-        const currentBox = circleTurn ? players[1].symbol : players[0].symbol;
-        placeMark(fieldContent, currentBox);
+        const currentField = circleTurn ? players[1].symbol : players[0].symbol;
+        placeSymbol(fieldContent, currentField);
         swapTurns();
+        checkWinner();
     }
-    checkWinner();
-    /*
-    * Add the current player symbol to the field textContent
-    * Make a place symbol funtion
-    * Make a swap turns funtion
-    */
 }
 
 //Place symbol function
-function placeMark(element, currentBox) {
-    element.textContent = currentBox;
+function placeSymbol(field, currentField) {
+   const placeSymbol =  field.textContent = currentField;
+   return placeSymbol;
 }
 
 //Swap turns function
@@ -58,12 +85,15 @@ function swapTurns() {
     circleTurn = !circleTurn;
 }
 
-// Show players function
+//Show players function
 function showPLayers() {
+    playerNameInputField.value = "";
+    let playerText = "";
+
     for (let i = 0; i < players.length; i++) {
         const player = players[i];
 
-        let playerText = "Name: " + player.name + ", " + "Symbol: " + player.symbol
+        playerText = "Name: " + player.name + ", " + "Symbol: " + player.symbol
             + ", " + "Score: " + player.points + ", " + "Level: " + player.level;
 
         if (i == 0) {
@@ -73,8 +103,6 @@ function showPLayers() {
         }
     }
 }
-
-showPLayers();
 
 //Check winner function
 function checkWinner() {
@@ -102,28 +130,19 @@ function checkWinner() {
     }
     //Check for draw
     if (draw == fields.length) {
-        alert('draw');
+        alert("Draw");
         resetBoard();
         draw = 1;
     } else {
         draw++;
     }
-    /**
-     * Add an algorithm to check if someone has three in a row
-     * Also make sure you check for a draw (gelijkspel)
-     * Add an alert that says who won
-     * Add an alert if the game ends in a draw 
-     * Add points to the winner 
-     * Reset the board
-     * Show players with the added point
-     */
 }
 
 //Reset board function
 function resetBoard() {
     for (let i = 0; i < fields.length; i++) {
-        const element = fields[i];
-        element.textContent = "";
+        const field = fields[i];
+        field.textContent = "";
     }
 }
 
@@ -131,13 +150,14 @@ function resetBoard() {
 function resetGame() {
     resetBoard();
 
-    players[0].points = 0;
-    players[1].points = 0;
-    players[0].level = 1;
-    players[1].level = 1;
-    draw = 1;
+    for (let i = 0; i <= players.length; i++) {
+        players.pop();
+    }
 
-    showPLayers();
+    showPLayerOne.textContent = "";
+    showPLayerTwo.textContent = "";
+
+    draw = 1;
 }
 
 console.log('File loaded');
