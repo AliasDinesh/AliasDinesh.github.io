@@ -1,5 +1,8 @@
 body {
-    background-color: aqua;
+    background-image: url("../img/clouds.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
 }
 
 .box {
@@ -59,7 +62,6 @@ body {
 	background-image: url("../img/clouds.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
 }
 
 .location {
