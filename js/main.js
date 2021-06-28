@@ -48,7 +48,7 @@ themeButton.addEventListener("click", () => {
 //This setTimeout checks if it's 6oclock or higher in the afternoon, then dark mode would be enabled
 setTimeout(() => {
     const current = new Date().getHours();
-    if (current >= 6) {
+    if (current >= 18) {
         enableDarkMode();
     } 
 },1000);
