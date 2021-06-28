@@ -1,9 +1,11 @@
 let darkMode = localStorage.getItem("dark-mode");
 const themeButton = document.querySelector(".theme-button");
+const cardTheme = document.querySelectorAll(".card-theme");
+const prjLinks = document.querySelectorAll(".projects-links");
 
+//Enable dark mode function
 function enableDarkMode() {
     document.body.classList.add("dark");
-    const cardTheme = document.querySelectorAll(".card-theme");
 
     for (let i = 0; i < cardTheme.length; i++) {
         const cardEelemnt = cardTheme[i];
@@ -13,9 +15,9 @@ function enableDarkMode() {
     localStorage.setItem("dark-mode", "enabled");
 };
 
+//Disable dark mode function
 function disableDarkMode() {
     document.body.classList.remove("dark");
-    const cardTheme = document.querySelectorAll(".card-theme");
 
     for (let i = 0; i < cardTheme.length; i++) {
         const cardEelemnt = cardTheme[i];
@@ -25,10 +27,12 @@ function disableDarkMode() {
     localStorage.setItem("dark-mode", null);
 };
 
+//This if-statement checks if darkmode is already enabled so when you change from pages or if you closed the webpage and opened it again, dark mode stays on
 if (darkMode === "enabled") {
     enableDarkMode();
 }
 
+//This addEventListener enables dark mode or disables it
 themeButton.addEventListener("click", () => {
     darkMode = localStorage.getItem("dark-mode");
 
@@ -42,11 +46,13 @@ themeButton.addEventListener("click", () => {
     }
 });
 
-setInterval(() => {
+//This setTimeout checks if it's 6oclock or higher in the afternoon, then dark mode would be enabled
+setTimeout(() => {
     const current = new Date().getHours();
-    if (current >= 17) {
+    if (current >= 6) {
         enableDarkMode();
-    }   
+    } 
+},1000);
 
-},0000);
+console.log('File loaded');
 
