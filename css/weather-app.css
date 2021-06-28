@@ -59,7 +59,7 @@ body {
 	right: 0;
 	margin: auto;
     border-radius: 25px;
-	background-image: url("../img/clouds.jpeg");
+	background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%), url("../img/clouds.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
