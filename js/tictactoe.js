@@ -115,6 +115,7 @@ function checkWinner() {
             resetBoard();
             draw = 0;
             showPLayers();
+            return;
         }
     }
     //Winning combinations for player 2
@@ -126,6 +127,7 @@ function checkWinner() {
             resetBoard();
             draw = 0;
             showPLayers();
+            return;
         }
     }
     //Check for draw
