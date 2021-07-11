@@ -28,6 +28,10 @@ function addPlayer() {
     }
 
     const playerName = playerNameInputField.value;
+    if (playerName == "") {
+        alert("Enter a name!");
+        return;
+    }
     let symbol = "X";
     if (players.length == 1) {
         symbol = "O";
@@ -110,9 +114,8 @@ function checkWinner() {
     for (let i = 0; i < winningCombinations.length; i++) {
         if ((winningCombinations[i][0].textContent == players[0].symbol) && (winningCombinations[i][1].textContent == players[0].symbol) && 
         (winningCombinations[i][2].textContent == players[0].symbol)) {
-            alert("Player 1 has won!!");
+            setTimeout(() => { alert("Player 1 has won!!"); resetBoard(); }, 1000);
             players[0].addPoints();
-            resetBoard();
             draw = 0;
             showPLayers();
             return;
@@ -122,9 +125,8 @@ function checkWinner() {
     for (let i = 0; i < winningCombinations.length; i++) {
         if ((winningCombinations[i][0].textContent == players[1].symbol) && (winningCombinations[i][1].textContent == players[1].symbol) && 
         (winningCombinations[i][2].textContent == players[1].symbol)) {
-            alert("Player 2 has won!!");
+            setTimeout(() => { alert("Player 2 has won!!"); resetBoard(); }, 1000);
             players[1].addPoints();
-            resetBoard();
             draw = 0;
             showPLayers();
             return;
