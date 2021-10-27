@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/contact-form.css">
   <script src="https://kit.fontawesome.com/41ab89e04f.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Dinesh's Portfolio</title>
@@ -26,7 +27,7 @@
               <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href="php/projects.php">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -55,10 +56,17 @@
         <div class="card bg-dark text-white">
           <img class="card-img" src="img/contact.jpg" alt="contacts">
           <div class="card-img-overlay">
-            <h5 class="card-title text-center font-color contact-title">Contact</h5>
             <p class="card-text contact-text font-color"><span class="fa fa-phone"></span> Phone-number: 06-20913966 <br>
             <span class="fa fa-envelope"></span> School-email: 302115525@student.rocmondriaan.nl <br>
             <span class="fa fa-github"></span> Github-account: AliasDinesh</p>
+            <p>Send E-mail</p>
+            <form action="php/contactsform.php" method="post">
+              <input type="text" name="name" placeholder="Full name">
+              <input type="text" name="mail" placeholder="Your e-mail">
+              <input type="text" name="subject" placeholder="Subject">
+              <textarea name="message" placeholder="Message"></textarea>
+              <button type="submit" name="submit">Send e-mail</button>
+            </form>
           </div>
         </div>
       </div>
