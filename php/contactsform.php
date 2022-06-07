@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
-    $subjet = $_POST['subject'];
+    $subject = $_POST['subject'];
     $mailForm = $_POST['mail'];
     $message = $_POST['message'];
 
