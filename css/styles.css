@@ -11550,7 +11550,7 @@ section#contact .section-heading {
     color: var(--bs-yellow);
 }
 
-section#contact .section-subheading.h3 {
+section#contact .contact-info {
     color: var(--bs-white);
 }
 
